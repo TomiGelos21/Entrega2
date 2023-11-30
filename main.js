@@ -1,6 +1,6 @@
-const Contenedor = require("./Contenedor");
+const ProductManager = require("./ProductManager");
 
-const contenedor = new Contenedor("productos.json");
+const contenedor = new ProductManager("productos.json");
 
 const main = async () => {
   const id1 = await contenedor.save({ title: "Regla", price: 75.66 });

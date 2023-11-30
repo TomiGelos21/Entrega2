@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-class Contenedor {
+class ProductManager {
   constructor(fileName) {
     this._filename = fileName;
     this._readFileOrCreateNewOne();
@@ -100,4 +100,4 @@ class Contenedor {
   }
 }
 
-module.exports = Contenedor;
+module.exports = ProductManager;
